@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context debug="1" reloadable="true" crossContext="true">
+  <Resource name="jdbc/cs9321" auth="Container"
+          type="javax.sql.DataSource" username="user" password="pass"
+          driverClassName="org.apache.derby.jdbc.ClientDriver" 
+          url="jdbc:derby://localhost:1527/cast"
+          maxActive="8" maxIdle="4"/>
+    <Resource name="mail/Session" auth="Container"
+          type="javax.mail.Session"
+  		  mail.smtp.host="smtp.cse.unsw.edu.au"
+  		  mail.smtp.auth="true"
+  		  mail.smtp.user="wzho955"
+  		  password="pvwowalm"
+  		  mail.debug="false"
+  		  mail.smtp.starttls.enable="false"
+  		  mail.smtp.ssl.enable="false"/>    
+</Context>
